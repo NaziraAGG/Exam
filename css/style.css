@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gotham Pro';
+}
+
+.container {
+    background-color: rgb(252, 249, 249);
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+.page {
+    max-width: 850px;
+    margin: 50px 0 50px 130px;
+
+}
+
+.page_new-post {
+    background-color: white;
+    height: 135px;
+    padding: 25px 30px;
+
+}
+
+.page_new-post h2 {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+hr { 
+    border: 1px solid #F4F4F4;
+}
+
+
+.page_input {
+    border: none;
+    width: 50%;
+}
+.page_input_point {
+    display: none;
+}
+.input_box {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon_box {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.round_menu_icons {
+    display: none;
+}
+
+.label {
+    font-size: 12px;
+    padding: 35px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+select {
+    color: #0275b1;
+    border: none;
+}
+
+
+.round_menu {
+    display: flex;
+    gap: 5px;
+}
+.menu {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #181818;
+
+}
+
+.round_menu_icons {
+    display: flex;
+    gap: 5px;
+}
+
+
+.part_content {
+    margin-bottom: 20px;
+    background-color: white;
+}
+.content {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content p { 
+    color: #0275B1;
+    font-size: 10px;
+}
+.content p span {
+    color: #181818;
+}
+
+.content_pax {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pax_photo {
+    padding: 15px 30px;
+}
+
+.pax {
+    font-size: 14px;
+    color: #181818;
+}
+.pax_info {
+    padding-top: 5px;
+    font-size: 10px;
+    color: #181818;
+}
+
+.details {
+    padding: 0 30px 15px;
+    font-size: 14px;
+    color: #181818;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #0275B1;
+    padding: 0 30px 0;
+}
+
+.link_hr { 
+    border: 1px solid #F4F4F4;
+    margin-top: 20px;
+
+    
+}
+
+.cm_icons {
+    padding: 15px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+.cm_circle a {
+    text-decoration: none;
+}
+.cm_circle {
+    position: absolute;
+    left: 13%;
+    top: 25%;
+}
+
+
+.cm {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cm a {
+    text-decoration: none;
+}
+
+.post {
+    padding: 15px 30px 38px;
+    width: 100%;
+}
+
+.side_page {
+    max-width: 290px;
+    margin: 50px 130px 50px 40px;
+}
+
+.block {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url(../img/block_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+
+}
+
+.block_h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #181818;
+    text-align: center;
+    padding: 186px 0 20px;
+}
+.block p {
+    padding-bottom: 26px;
+    text-align: center;
+    font-size: 10px;
+    color: #181818;
+}
+.center {
+    position: absolute;  
+    top: 70px;
+    left: 90px;
+
+}
+
+.press {
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+.groups {
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 28px;
+
+}
+
+button {
+    width: 230px;
+    height: 32px;
+    margin: 20px 30px;
+    border: none;
+    background: #0077B5;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+.gr_section {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px 20px;
+}
+
+.gr_section h2 a {
+    text-decoration: none;
+    color: #0275B1;
+}
+
+.items p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #181818;
+}
+
+.items {
+    padding: 15px;
+    margin: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.show {
+    font-size: 12px;
+    text-decoration: none;
+    color: #0275B1;
+    margin: 25px 30px 0;
+}
+
+.tags {
+    padding: 25px 30px;
+    background-color: white;
+
+}
+.tags h2 {
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #181818;
+
+}
+
+.tag_box {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.button_tag {
+    background: #E9F0F8;
+    border-radius: 4px;
+    text-align: center;
+    padding: 7px;
+
+}
+
+
